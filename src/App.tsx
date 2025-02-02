@@ -24,6 +24,13 @@ const App: React.FC = () => {
         className="w-[512px] h-[512px] bg-[#2D2640] relative overflow-hidden rounded-full shadow-2xl mb-12"
       >
         <div className="absolute inset-0 opacity-10 before:absolute before:inset-0 before:bg-transparent before:z-10 before:pointer-events-none before:grid before:grid-cols-[repeat(auto-fill,_20px)] before:grid-rows-[repeat(auto-fill,_20px)] before:[background-size:20px_20px] before:[background-image:linear-gradient(to_right,_#FF6B6B_1px,_transparent_1px),linear-gradient(to_bottom,_#FF6B6B_1px,_transparent_1px)]"></div>
+        <div className="absolute inset-0 opacity-5">
+          <div className="flex flex-wrap gap-10">
+            {Array(1000).fill(0).map((_, i) => (
+              <div key={i} className="w-2 h-2 rounded-full bg-gradient-to-b from-[#FFD93D] to-[#FF6B6B]"></div>
+            ))}
+          </div>
+        </div>
         <div className="absolute inset-4 rounded-full border-4 border-[#FFB347] opacity-50" />
         <div className="relative h-full flex flex-col items-center justify-center p-8">
           <div className="text-center space-y-6">
