@@ -21,7 +21,7 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-[#1a1527] to-[#2D2640] flex flex-col items-center justify-center py-12 px-4">
       <div
         ref={logoRef}
-        className="w-[512px] h-[512px] bg-[#2D2640] relative overflow-hidden rounded-full shadow-2xl mb-12"
+        className="w-[512px] h-[512px] bg-[#2D2640] relative overflow-hidden shadow-2xl mb-12"
       >
         <div className="absolute inset-0 opacity-10 before:absolute before:inset-0 before:bg-transparent before:z-10 before:pointer-events-none before:grid before:grid-cols-[repeat(auto-fill,_20px)] before:grid-rows-[repeat(auto-fill,_20px)] before:[background-size:20px_20px] before:[background-image:linear-gradient(to_right,_#FF6B6B_1px,_transparent_1px),linear-gradient(to_bottom,_#FF6B6B_1px,_transparent_1px)]"></div>
         <div className="absolute inset-0 opacity-5">
